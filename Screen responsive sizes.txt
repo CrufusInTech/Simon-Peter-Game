@@ -17,7 +17,7 @@ Tablets:
 }
 
 Phones:
-@media(max-width: 600pxpx){
+@media(max-width: 600px){
     
 }
 

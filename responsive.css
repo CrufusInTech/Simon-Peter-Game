@@ -42,7 +42,7 @@
 @media (min-width: 350px) and (max-width: 374px){
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-top: 20px;
   color: #FEF2BF;
 }
@@ -53,14 +53,14 @@
   grid-template-rows: repeat(2, 1fr);    
   width: 100%;
   max-width: 400px; 
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 5px;
 }
 
 .btn {
   margin: 20px;
-  height: 100px;  
-  width: 100px;
+  height: 110px;  
+  width: 110px;
   border: 10px solid black;
   outline: none;
   border-radius: 20px;
@@ -68,12 +68,13 @@
 
 .high-score {
   top: 400px;
-  right: 60px;
+  right:25px;
   color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   padding: 10px 15px;
   border-radius: 10px;
+  margin-top: 40px;
 }
 }
 
@@ -135,8 +136,8 @@
 
 .btn {
   margin: 20px;
-  height: 100px;  
-  width: 100px;
+  height: 120px;  
+  width: 120px;
   border: 10px solid black;
   outline: none;
   border-radius: 20px;
@@ -144,22 +145,23 @@
 
 .high-score {
   top: 400px;
-  right: 60px;
+  right: 30px;
   color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 10px 15px;
   border-radius: 10px;
   text-align: center;
+  margin-top: 40px;
 } 
 
 }
 
 /* Mobile Large */
-@media(min-width: 424px) and (max-width: 765px){
+@media(min-width: 424px) and (max-width: 767px){
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 20px;
   color: #FEF2BF;
 }
@@ -174,8 +176,8 @@
 
 .btn {
   margin: 20px;
-  height: 100px;  
-  width: 100px;
+  height: 130px;  
+  width: 130px;
   border: 10px solid black;
   outline: none;
   border-radius: 20px;
@@ -183,13 +185,57 @@
 
 .high-score {
   top: 400px;
-  right: 75px;
+  right: 45px;
   color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding: 10px 15px;
   border-radius: 10px;
   text-align: center;
+  margin-top: 70px;
+} 
+
+}
+
+/* Tablet */
+@media(min-width: 768px) and (max-width: 900px){
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.7rem;
+  margin-top: 20px;
+  color: #FEF2BF;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr);    
+  width: 100%;
+  max-width: 400px; 
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.btn {
+  margin: 20px;
+  height: 180px;  
+  width: 180px;
+  border: 10px solid black;
+  outline: none;
+  border-radius: 20px;
+}
+
+.high-score {
+  top: 400px;
+  left: 80px;
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.8rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 230px;
 } 
 
 }

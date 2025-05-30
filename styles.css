@@ -5,9 +5,11 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 20px;
   color: #FEF2BF;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .container {
@@ -49,17 +51,19 @@ body {
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
   background-color: grey;
+  transform: scale(1.1);
+  transition: transform 0.1s ease;
 }
+
 
 .high-score {
   position: absolute;
-  top: 120px;
+  top: 190px;
   right: 40px;
   color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 10px 15px;
   border-radius: 10px;
 }

@@ -47,7 +47,13 @@ function checkAnswer(currentLevel) {
     playSound("wrong");
 
     $("body").addClass("game-over");
-    $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#level-title").text("Watch the pattern. Repeat it!");
+    
+    setTimeout(function () {
+    $("#level-title").text("Tap or Press Any Key to Start");
+}, 1000);
+
+    
 
     setTimeout(function () {
       $("body").removeClass("game-over");
@@ -72,7 +78,11 @@ function nextSequence() {
 
   gamePattern.push(randomChosenColour);
 
-  $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
+  $("#" + randomChosenColour).addClass("pressed");
+
+  setTimeout(function () {
+   $("#" + randomChosenColour).removeClass("pressed");
+  }, 150); // remove after 150ms
 
 
   playSound(randomChosenColour);
