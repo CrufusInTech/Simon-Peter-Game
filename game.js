@@ -6,11 +6,11 @@ var started = false;
 var highScore = 0;
 
 // Detect a keyboard press to start the game
-$(document).keypress(function () {
+$(document).on("keypress touchstart", function () {
   if (!started) {
+    started = true;
     $("#level-title").text("Level " + level);
     nextSequence();
-    started = true;
   }
 });
 
