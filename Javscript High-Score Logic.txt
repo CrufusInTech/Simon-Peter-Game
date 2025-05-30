@@ -1,0 +1,29 @@
+Sure! Here’s the logic for adding a highscore section that tracks the highest level reached during a session (until the user refreshes):
+
+1. *Initialize Highscore Variable:*
+   Start with a variable (e.g., highscore) set to zero or the lowest possible level.
+
+2. *Track Current Level:*
+   As the user plays, keep track of their current level in another variable (e.g., currentLevel).
+
+3. *Compare and Update:*
+   Each time the user reaches a new level or finishes a level, compare currentLevel with highscore.
+
+   * If currentLevel is greater than highscore, update highscore to currentLevel.
+
+4. *Display Highscore:*
+   Update the UI to display the current highscore so the user can see their best progress so far.
+
+5. *Reset on Refresh:*
+   Because the data is only stored in memory (variables), when the user refreshes the page, the highscore resets to zero and the tracking starts fresh.
+
+---
+
+### Summary:
+
+* Keep a variable to store the highest level reached so far.
+* Update it only if the current level exceeds it.
+* Show it in the interface.
+* The highscore resets when the page reloads because it’s not stored persistently.
+
+If you want to save the highscore even after refresh, that would require persistent storage like cookies or localStorage. But for just during a session, the in-memory variable approach works perfectly.

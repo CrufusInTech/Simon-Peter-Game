@@ -1,0 +1,27 @@
+| Device Type    | Width Range      | Example MQ                   |
+| -------------- | ---------------- | ---------------------------- |
+| Small Phones   | 320px – 375px    | `@media (max-width: 375px)`  |
+| Regular Phones | 376px – 600px    | `@media (min-width: 376px)`  |
+| Tablets        | 601px – 900px    | `@media (min-width: 601px)`  |
+| Small Laptops  | 901px – 1200px   | `@media (min-width: 901px)`  |
+| Large Desktops | 1201px and above | `@media (min-width: 1201px)` |
+
+Desktops:
+@media(max-width: 1440px){
+
+}
+
+Tablets:
+@media(max-width: 1024px){
+    
+}
+
+Phones:
+@media(max-width: 600pxpx){
+    
+}
+
+Small phones:
+@media(max-width: 375px){
+    
+}

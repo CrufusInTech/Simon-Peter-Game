@@ -1,0 +1,195 @@
+/*Mobile Small*/
+@media(min-width: 320px) and (max-width: 349px){
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  color: #FEF2BF;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr);    
+  width: 100%;
+  max-width: 400px; 
+  margin-top: 30px;
+  margin-left: -5px;
+}
+
+.btn {
+  margin: 20px;
+  height: 100px;  
+  width: 100px;
+  border: 10px solid black;
+  outline: none;
+  border-radius: 20px;
+}
+
+.high-score {
+  top: 400px;
+  right: 30px;
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.9rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+}
+
+/* Mobile Honourable */
+@media (min-width: 350px) and (max-width: 374px){
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  color: #FEF2BF;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr);    
+  width: 100%;
+  max-width: 400px; 
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.btn {
+  margin: 20px;
+  height: 100px;  
+  width: 100px;
+  border: 10px solid black;
+  outline: none;
+  border-radius: 20px;
+}
+
+.high-score {
+  top: 400px;
+  right: 60px;
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.9rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+}
+
+/* Mobile Medium */
+@media (min-width: 375px) and (max-width: 389px){
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #FEF2BF;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 400px; 
+  margin-top: 30px;
+  padding: 0 40 0px 0px;
+}
+
+.btn {
+  margin: 20px;
+  height: 100px;  
+  width: 100px;
+  border: 10px solid black;
+  outline: none;
+  border-radius: 20px;
+}
+
+.high-score {
+  top: 400px;
+  right: 50px;
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-align: center;
+} 
+
+}
+
+/* Mobile Honourable */
+@media(min-width: 390px) and (max-width: 423px){
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #FEF2BF;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 400px; 
+  margin-top: 30px;
+  padding: 0 40 0px 0px;
+}
+
+.btn {
+  margin: 20px;
+  height: 100px;  
+  width: 100px;
+  border: 10px solid black;
+  outline: none;
+  border-radius: 20px;
+}
+
+.high-score {
+  top: 400px;
+  right: 60px;
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-align: center;
+} 
+
+}
+
+/* Mobile Large */
+@media(min-width: 424px) and (max-width: 765px){
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #FEF2BF;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 400px; 
+  margin-top: 30px;
+  padding: 0 40 0px 0px;
+}
+
+.btn {
+  margin: 20px;
+  height: 100px;  
+  width: 100px;
+  border: 10px solid black;
+  outline: none;
+  border-radius: 20px;
+}
+
+.high-score {
+  top: 400px;
+  right: 75px;
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-align: center;
+} 
+
+}
