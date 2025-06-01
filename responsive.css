@@ -299,7 +299,7 @@
   width: 100%;
   max-width: 400px; 
   margin-top: 30px;
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
 .btn {
@@ -313,7 +313,7 @@
 
 .high-score {
   top: 400px;
-  left: 30px;
+  left: 77px;
   color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
   font-size: 1.8rem;
