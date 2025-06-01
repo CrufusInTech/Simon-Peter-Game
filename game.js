@@ -12,6 +12,7 @@ $(document).on("keypress touchstart", function () {
     $("#level-title").text("Level " + level);
     nextSequence();
   }
+
 });
 
 // Handle button clicks
@@ -65,6 +66,7 @@ function checkAnswer(currentLevel) {
 
 // Generate the next sequence
 function nextSequence() {
+
   level++;
   $("#level-title").text("Level " + level);
 
