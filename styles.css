@@ -84,6 +84,10 @@ body {
   z-index: 1000;
 }
 
+#how-to-play-btn:hover{
+  background-color: black;
+}
+
 .hidden {
   display: none !important;
 }
