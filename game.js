@@ -48,14 +48,16 @@ function checkAnswer(currentLevel) {
     playSound("wrong");
 
     $("body").addClass("game-over");
+   
+      
     $("#level-title").text("Better luck next time!");
-    
-//     setTimeout(function () {
-//     $("#level-title").text("Tap or Press Any Key to Start");
-// }, 1000);
+
+
+    setTimeout(function() {
+      $("#level-title").text("Tap screen (📱) or press any key (⌨️) to start");
+    }, 2000);
 
     
-
     setTimeout(function () {
       $("body").removeClass("game-over");
     }, 200);
@@ -131,5 +133,7 @@ $(function () {
       $("#how-to-play-box").addClass("hidden");
     }
   });
+
+
 });
 
