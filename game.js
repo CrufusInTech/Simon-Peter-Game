@@ -48,11 +48,11 @@ function checkAnswer(currentLevel) {
     playSound("wrong");
 
     $("body").addClass("game-over");
-    $("#level-title").text("Watch the pattern. Repeat it!");
+    $("#level-title").text("Better luck next time!");
     
-    setTimeout(function () {
-    $("#level-title").text("Tap or Press Any Key to Start");
-}, 1000);
+//     setTimeout(function () {
+//     $("#level-title").text("Tap or Press Any Key to Start");
+// }, 1000);
 
     
 
@@ -112,3 +112,24 @@ function startOver() {
   userClickedPattern = [];
   started = false;
 }
+
+// How to play button
+$(function () {
+  // Open the How to Play modal
+  $("#how-to-play-btn").on("click", function () {
+    $("#how-to-play-box").removeClass("hidden");
+  });
+
+  // Close the How to Play modal
+  $("#close-how-to").on("click", function () {
+    $("#how-to-play-box").addClass("hidden");
+  });
+
+  // Optional: allow closing modal when clicking outside the box
+  $("#how-to-play-box").on("click", function (e) {
+    if (e.target.id === "how-to-play-box") {
+      $("#how-to-play-box").addClass("hidden");
+    }
+  });
+});
+
