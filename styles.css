@@ -14,12 +14,22 @@ body {
   text-align: center;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* Container for the game buttons, centered and 50% width */
 .container {
-  display: block;
-  width: 50%;
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr);    
+  width: 100%;
+  max-width: 520px;
 }
+
 
 /* Common style for all colored game buttons */
 .btn {
@@ -57,20 +67,21 @@ body {
 /* Style when a button is pressed */
 .pressed {
   background-color: grey;
-  transform: scale(1.1); /* Slight zoom effect */
+  transform: scale(1.1);
   transition: transform 0.1s ease;
 }
 
-/* Style for the high score label */
+/* Style for the high score */
 .high-score {
   position: absolute;
-  top: 190px;
+  top: 400px;
   right: 40px;
   color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
   font-size: 1.1rem;
   padding: 10px 15px;
   border-radius: 10px;
+  text-align: center;
 }
 
 /* --- How to Play Button --- */

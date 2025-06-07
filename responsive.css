@@ -1,328 +1,175 @@
-/*Mobile Small*/
-@media(min-width: 320px) and (max-width: 349px){
-#level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 0.9rem;
-  margin-top: 20px;
-  color: #FEF2BF;
+
+
+@media (min-width: 320px) and (max-width: 349px) {
+  #level-title {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    margin-top: 30px;
+    margin-left: -5px;
+  }
+
+  .btn {
+    height: 100px;
+    width: 100px;
+  }
+
+  .high-score {
+    font-size: 0.9rem;
+    right: 30px;
+  }
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  grid-template-rows: repeat(2, 1fr);    
-  width: 100%;
-  max-width: 400px; 
-  margin-top: 30px;
-  margin-left: -5px;
+@media (min-width: 350px) and (max-width: 374px) {
+  #level-title {
+    font-size: 1rem;
+  }
+
+  .container {
+    margin-top: 40px;
+    margin-left: 5px;
+  }
+
+  .btn {
+    height: 110px;
+    width: 110px;
+  }
+
+  .high-score {
+    font-size: 1.1rem;
+    right: 28px;
+    margin-top: 40px;
+  }
 }
 
-.btn {
-  margin: 20px;
-  height: 100px;  
-  width: 100px;
-  border: 10px solid black;
-  outline: none;
-  border-radius: 20px;
+@media (min-width: 375px) and (max-width: 389px) {
+  #level-title {
+    font-size: 1rem;
+  }
+
+  .container {
+    margin-top: 30px;
+    padding: 0 40px 0 0;
+  }
+
+  .btn {
+    height: 100px;
+    width: 100px;
+  }
+
+  .high-score {
+    font-size: 1rem;
+    right: 50px;
+  }
 }
 
-.high-score {
-  top: 400px;
-  right: 30px;
-  color: #FEF2BF;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 0.9rem;
-  padding: 10px 15px;
-  border-radius: 10px;
+@media (min-width: 390px) and (max-width: 423px) {
+  #level-title {
+    font-size: 1rem;
+  }
+
+  .container {
+    margin-top: 30px;
+    padding: 0 40px 0 0;
+  }
+
+  .btn {
+    height: 120px;
+    width: 120px;
+  }
+
+  .high-score {
+    font-size: 1.2rem;
+    right: 39px;
+    margin-top: 40px;
+  }
 }
 
+@media (min-width: 424px) and (max-width: 767px) {
+  #level-title {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    margin-top: 30px;
+    padding: 0 40px 0 0;
+  }
+
+  .btn {
+    height: 130px;
+    width: 130px;
+  }
+
+  .high-score {
+    font-size: 1.3rem;
+    right: 45px;
+    margin-top: 70px;
+  }
 }
 
-/* Mobile Honourable */
-@media (min-width: 350px) and (max-width: 374px){
-#level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
-  margin-top: 20px;
-  color: #FEF2BF;
+@media (min-width: 768px) and (max-width: 800px) {
+  #level-title {
+    font-size: 1.7rem;
+  }
+
+  .container {
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+
+  .btn {
+    height: 180px;
+    width: 180px;
+  }
+
+  .high-score {
+    font-size: 1.8rem;
+    left: 70px;
+    margin-top: 230px;
+  }
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  grid-template-rows: repeat(2, 1fr);    
-  width: 100%;
-  max-width: 400px; 
-  margin-top: 40px;
-  margin-left: 5px;
+@media (min-width: 801px) and (max-width: 850px) {
+  #level-title {
+    font-size: 1.7rem;
+  }
+
+  .container {
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+
+  .btn {
+    height: 180px;
+    width: 180px;
+  }
+
+  .high-score {
+    font-size: 1.8rem;
+    left: 30px;
+    margin-top: 240px;
+  }
 }
 
-.btn {
-  margin: 20px;
-  height: 110px;  
-  width: 110px;
-  border: 10px solid black;
-  outline: none;
-  border-radius: 20px;
+@media (min-width: 851px) and (max-width: 900px) {
+  #level-title {
+    font-size: 1.7rem;
+  }
+
+  .container {
+    margin-top: 30px;
+    margin-left: 200px;
+  }
+
+  .btn {
+    height: 180px;
+    width: 180px;
+  }
+
+  .high-score {
+    font-size: 1.8rem;
+    left: 77px;
+    margin-top: 240px;
+  }
 }
-
-.high-score {
-  top: 400px;
-  right:28px;
-  color: #FEF2BF;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1.1rem;
-  padding: 10px 15px;
-  border-radius: 10px;
-  margin-top: 40px;
-}
-}
-
-/* Mobile Medium */
-@media (min-width: 375px) and (max-width: 389px){
-#level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
-  margin-top: 20px;
-  color: #FEF2BF;
-}
-
-
-.container {
-  width: 100%;
-  max-width: 400px; 
-  margin-top: 30px;
-  padding: 0 40 0px 0px;
-}
-
-.btn {
-  margin: 20px;
-  height: 100px;  
-  width: 100px;
-  border: 10px solid black;
-  outline: none;
-  border-radius: 20px;
-}
-
-.high-score {
-  top: 400px;
-  right: 50px;
-  color: #FEF2BF;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
-  padding: 10px 15px;
-  border-radius: 10px;
-  text-align: center;
-} 
-
-}
-
-/* Mobile Honourable */
-@media(min-width: 390px) and (max-width: 423px){
-#level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
-  margin-top: 20px;
-  color: #FEF2BF;
-}
-
-
-.container {
-  width: 100%;
-  max-width: 400px; 
-  margin-top: 30px;
-  padding: 0 40 0px 0px;
-}
-
-.btn {
-  margin: 20px;
-  height: 120px;  
-  width: 120px;
-  border: 10px solid black;
-  outline: none;
-  border-radius: 20px;
-}
-
-.high-score {
-  top: 400px;
-  right: 39px;
-  color: #FEF2BF;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1.2rem;
-  padding: 10px 15px;
-  border-radius: 10px;
-  text-align: center;
-  margin-top: 40px;
-} 
-
-}
-
-/* Mobile Large */
-@media(min-width: 424px) and (max-width: 767px){
-#level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1.2rem;
-  margin-top: 20px;
-  color: #FEF2BF;
-}
-
-
-.container {
-  width: 100%;
-  max-width: 400px; 
-  margin-top: 30px;
-  padding: 0 40 0px 0px;
-}
-
-.btn {
-  margin: 20px;
-  height: 130px;  
-  width: 130px;
-  border: 10px solid black;
-  outline: none;
-  border-radius: 20px;
-}
-
-.high-score {
-  top: 400px;
-  right: 45px;
-  color: #FEF2BF;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1.3rem;
-  padding: 10px 15px;
-  border-radius: 10px;
-  text-align: center;
-  margin-top: 70px;
-} 
-
-}
-
-/* Tablet */
-@media(min-width: 768px) and (max-width: 800px){
-#level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1.7rem;
-  margin-top: 20px;
-  color: #FEF2BF;
-}
-
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  grid-template-rows: repeat(2, 1fr);    
-  width: 100%;
-  max-width: 400px; 
-  margin-top: 30px;
-  margin-left: 150px;
-}
-
-.btn {
-  margin: 20px;
-  height: 180px;  
-  width: 180px;
-  border: 10px solid black;
-  outline: none;
-  border-radius: 20px;
-}
-
-.high-score {
-  top: 400px;
-  left: 70px;
-  color: #FEF2BF;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1.8rem;
-  padding: 10px 15px;
-  border-radius: 10px;
-  text-align: center;
-  margin-top: 230px;
-} 
-
-}
-
-/* Mobile Honourable */
-@media(min-width: 801px) and (max-width: 850px){
-#level-title{
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1.7rem;
-  margin-top: 20px;
-  color: #FEF2BF;
-}
-
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  grid-template-rows: repeat(2, 1fr);    
-  width: 100%;
-  max-width: 400px; 
-  margin-top: 30px;
-  margin-left: 150px;
-}
-
-.btn {
-  margin: 20px;
-  height: 180px;  
-  width: 180px;
-  border: 10px solid black;
-  outline: none;
-  border-radius: 20px;
-}
-
-.high-score {
-  top: 400px;
-  left: 30px;
-  color: #FEF2BF;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1.8rem;
-  padding: 10px 15px;
-  border-radius: 10px;
-  text-align: center;
-  margin-top: 240px;
-} 
-
-}
-
-/* Desktop Honourable */
-@media(min-width: 851px) and (max-width: 900px){
-#level-title{
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1.7rem;
-  margin-top: 20px;
-  color: #FEF2BF;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  grid-template-rows: repeat(2, 1fr);    
-  width: 100%;
-  max-width: 400px; 
-  margin-top: 30px;
-  margin-left: 200px;
-}
-
-.btn {
-  margin: 20px;
-  height: 180px;  
-  width: 180px;
-  border: 10px solid black;
-  outline: none;
-  border-radius: 20px;
-}
-
-.high-score {
-  top: 400px;
-  left: 77px;
-  color: #FEF2BF;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1.8rem;
-  padding: 10px 15px;
-  border-radius: 10px;
-  text-align: center;
-  margin-top: 240px;
-} 
-
-}
-
-Now my responsive css, I want you to make needed adustment to my responsive css, so it looks good and tell what was changed or added and why
