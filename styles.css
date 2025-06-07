@@ -1,8 +1,10 @@
+/* Center-align all text and set the background color of the body */
 body {
   text-align: center;
   background-color: #011F3F;
 }
 
+/* Style for the game title */
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 2.5rem;
@@ -12,28 +14,30 @@ body {
   text-align: center;
 }
 
+/* Container for the game buttons, centered and 50% width */
 .container {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
+/* Common style for all colored game buttons */
 .btn {
   margin: 20px;
   display: inline-block;
   height: 200px;
   width: 200px;
   border: 10px solid black;
-  border-radius: 20%;
-} 
+  border-radius: 20%; /* Rounded corners */
+}
 
-
+/* Red flash background for game over effect */
 .game-over {
   background-color: red;
   opacity: 0.8;
 }
 
+/* Individual button colors */
 .red {
   background-color: red;
 }
@@ -50,13 +54,14 @@ body {
   background-color: yellow;
 }
 
+/* Style when a button is pressed */
 .pressed {
   background-color: grey;
-  transform: scale(1.1);
+  transform: scale(1.1); /* Slight zoom effect */
   transition: transform 0.1s ease;
 }
 
-
+/* Style for the high score label */
 .high-score {
   position: absolute;
   top: 190px;
@@ -68,12 +73,14 @@ body {
   border-radius: 10px;
 }
 
-/* How to play */
+/* --- How to Play Button --- */
+
+/* Button to open the How-To-Play instructions */
 #how-to-play-btn {
   position: fixed;
   bottom: 100px;
   right: 45px;
-  background-color:dimgray;
+  background-color: dimgray;
   color: black;
   border: none;
   padding: 10px 15px;
@@ -81,31 +88,35 @@ body {
   font-family: sans-serif;
   font-weight: 800;
   cursor: pointer;
-  z-index: 1000;
+  z-index: 1000; /* Ensures it appears above most elements */
 }
 
-#how-to-play-btn:hover{
+/* Hover effect for the How-To-Play button */
+#how-to-play-btn:hover {
   background-color: black;
   color: white;
 }
 
+/* Utility class to hide elements */
 .hidden {
   display: none !important;
 }
 
+/* Fullscreen overlay for the How-To-Play instructions */
 #how-to-play-box {
   position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
   width: 100vw;
-  background: rgba(0,0,0,0.85);
+  background: rgba(0, 0, 0, 0.85); /* semi-transparent black */
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1001;
+  z-index: 1001; /* Above the button */
 }
 
+/* Box that contains the actual instructions */
 .how-to-content {
   background: #011F3F;
   padding: 2rem;
@@ -116,6 +127,7 @@ body {
   color: white;
 }
 
+/* Close button for the instructions */
 #close-how-to {
   margin-top: 1rem;
   background: #e53935;
@@ -126,16 +138,8 @@ body {
   cursor: pointer;
 }
 
-#close-how-to:hover{
+/* Hover effect for close button */
+#close-how-to:hover {
   background-color: #2980b9;
   transform: scale(1.1);
 }
-
-
-
-
-
-
-
-
-
