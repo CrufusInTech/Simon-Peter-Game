@@ -70,7 +70,7 @@ function checkAnswer(currentLevel) {
 
     // After 2 seconds, show restart prompt
     setTimeout(function() {
-      $("#level-title").text("Tap screen (📱) or press any key (⌨️) to start");
+      $("#level-title").text("Tap screen or press any key to start");
     }, 2000);
 
     // Remove red flash effect quickly

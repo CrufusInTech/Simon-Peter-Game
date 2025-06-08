@@ -14,7 +14,7 @@ body {
   text-align: center;
 }
 
-.wrapper {
+.container-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,8 +74,8 @@ body {
 /* Style for the high score */
 .high-score {
   position: absolute;
-  top: 400px;
-  right: 40px;
+  top: 200px;
+  right: 30px;
   color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
   font-size: 1.1rem;
@@ -88,9 +88,9 @@ body {
 
 /* Button to open the How-To-Play instructions */
 #how-to-play-btn {
-  position: fixed;
-  bottom: 100px;
-  right: 45px;
+  position: absolute;
+  top: 280px;
+  right: 80px;
   background-color: dimgray;
   color: black;
   border: none;
@@ -98,14 +98,14 @@ body {
   border-radius: 6px;
   font-family: sans-serif;
   font-weight: 800;
+  font-size: 1rem;
   cursor: pointer;
-  z-index: 1000; /* Ensures it appears above most elements */
 }
 
 /* Hover effect for the How-To-Play button */
 #how-to-play-btn:hover {
   background-color: black;
-  color: white;
+  color: #FEF2BF;
 }
 
 /* Utility class to hide elements */
@@ -124,7 +124,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1001; /* Above the button */
 }
 
 /* Box that contains the actual instructions */
