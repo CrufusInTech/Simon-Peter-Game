@@ -44,13 +44,12 @@
 
   .high-score {
     font-size: 1rem;
-    right: 40px;
+    right: 35px;
     top: 430px
   }
 
   #how-to-play-btn {
     top: 480px;
-    margin-right: 5px;
     
   }
 }
@@ -77,19 +76,19 @@
 
   #how-to-play-btn {
     top: 480px;
-    right: 100px;
+    right: 90px;
     
   }
 }
 
-@media (min-width: 390px) and (max-width: 423px) {
+@media (min-width: 390px) and (max-width: 400px) {
   #level-title {
     font-size: 1rem;
   }
 
   .container {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 12px;
   }
 
   .btn {
@@ -99,13 +98,42 @@
 
   .high-score {
     font-size: 1rem;
-    right: 50px;
+    margin-right: 20px;
     top: 430px
   }
 
   #how-to-play-btn {
     top: 480px;
-    right: 100px;
+    right: 97px;
+    
+  }
+}
+
+@media (min-width: 401px) and (max-width: 423px) {
+  #level-title {
+    font-size: 1rem;
+  }
+
+  .container {
+    margin-top: 10px;
+    margin-left: 12px;
+  }
+
+  .btn {
+    height: 115px;
+    width: 115px;
+  }
+
+  .high-score {
+    font-size: 1.1rem;
+    margin-right: 15px;
+    top: 430px
+  }
+
+  #how-to-play-btn {
+    top: 480px;
+    margin-right: 20px;
+    font-size: 1.1rem;
     
   }
 }
@@ -154,7 +182,7 @@
   }
 
   .high-score {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     left: 45px;
     top: 600px
   }
@@ -162,7 +190,7 @@
   #how-to-play-btn {
   top: 660px;
   right: 260px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   }
 }
 
@@ -173,18 +201,25 @@
 
   .container {
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 20px;
   }
 
   .btn {
-    height: 180px;
-    width: 180px;
+    height: 190px;
+    width: 190px;
   }
 
+  
   .high-score {
-    font-size: 1.8rem;
-    left: 30px;
-    margin-top: 240px;
+    font-size: 1.6rem;
+    left: 55px;
+    top: 650px
+  }
+
+  #how-to-play-btn {
+  top: 720px;
+  margin-right: 190px;
+  font-size: 1.4rem;
   }
 }
 
@@ -195,18 +230,25 @@
 
   .container {
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 10px;
   }
 
   .btn {
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
   }
 
+  
   .high-score {
-    font-size: 1.8rem;
-    left: 77px;
-    margin-top: 240px;
+    font-size: 1.6rem;
+    left: 55px;
+    top: 670px
+  }
+
+  #how-to-play-btn {
+  top: 740px;
+  margin-right: 235px;
+  font-size: 1.4rem;
   }
 }
 
