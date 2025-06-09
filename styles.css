@@ -1,7 +1,7 @@
 /* Center-align all text and set the background color of the body */
 body {
   text-align: center;
-  background-color: white;
+  background-color: #FEF2BF;
 }
 
 /* Style for the game title */
@@ -9,7 +9,7 @@ body {
   font-family: 'Press Start 2P', cursive;
   font-size: 2.5rem;
   margin-top: 20px;
-  color: #FEF2BF;
+  color: Black;
   line-height: 1.4;
   text-align: center;
 }
@@ -76,7 +76,7 @@ body {
   position: absolute;
   top: 200px;
   right: 30px;
-  color: #FEF2BF;
+  color: Black;
   font-family: 'Press Start 2P', cursive;
   font-size: 1.1rem;
   padding: 10px 15px;
