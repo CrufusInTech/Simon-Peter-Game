@@ -71,12 +71,12 @@ function checkAnswer(currentLevel) {
     // After 2 seconds, show restart prompt
     setTimeout(function() {
       $("#level-title").text("Tap screen or press any key to start");
-    }, 2000);
+    }, 800);
 
     // Remove red flash effect quickly
     setTimeout(function () {
       $("body").removeClass("game-over");
-    }, 200);
+    }, 800);
 
     // Reset the game
     startOver();

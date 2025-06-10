@@ -115,7 +115,7 @@
     width: 250px;
     padding-top: 10px;
     border-radius: 5%;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
   }
 
   .how-to-content h2{
@@ -226,7 +226,7 @@
 
   .high-score {
     font-size: 1rem;
-    right: 70px;
+    right: 85px;
     top: 490px
   }
 
@@ -237,7 +237,7 @@
   #how-to-play-btn {
     top: 540px;
     font-size: 1.1rem;
-    right: 110px
+    right: 130px
     
   }
 
