@@ -26,11 +26,18 @@
     
   }
 
-  #how-to-play-box {
-    top: 250px;
-    left: 10px;
-    height: 100px;
-    width: 300px;
+  .how-to-content{
+    font-size: 0.7rem;
+    top: 200px;
+    height: 280px;
+    width: 220px;
+    padding-top: 10px;
+    border-radius: 5%;
+    padding-bottom: 0;
+  }
+
+  .how-to-content h2{
+    font-size: 0.9rem;
   }
 }
 
@@ -59,6 +66,20 @@
     top: 480px;
     margin-right: 10px;
   }
+
+   .how-to-content{
+    font-size: 0.8rem;
+    top: 200px;
+    height: 290px;
+    width: 250px;
+    padding-top: 10px;
+    border-radius: 5%;
+    padding-bottom: 0;
+  }
+
+  .how-to-content h2{
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 389px) {
@@ -85,6 +106,20 @@
     top: 480px;
     right: 90px;
     
+  }
+
+  .how-to-content{
+    font-size: 0.8rem;
+    top: 200px;
+    height: 290px;
+    width: 250px;
+    padding-top: 10px;
+    border-radius: 5%;
+    padding-bottom: 0;
+  }
+
+  .how-to-content h2{
+    font-size: 1rem;
   }
 }
 
@@ -113,6 +148,20 @@
     top: 480px;
     right: 99px;
     
+  }
+
+  .how-to-content{
+    font-size: 0.8rem;
+    top: 200px;
+    height: 290px;
+    width: 250px;
+    padding-top: 10px;
+    border-radius: 5%;
+    padding-bottom: 0;
+  }
+
+  .how-to-content h2{
+    font-size: 1rem;
   }
 }
 
