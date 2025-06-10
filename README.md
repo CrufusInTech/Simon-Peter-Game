@@ -44,13 +44,12 @@ The name adds a fun twist. Just like Simon Peter had to follow faithfully — in
 ## 🔗 Live Demo
 
 [👉 Play the Simon-Peter Game here](https://simon-peter-game.vercel.app)  
-_(Replace `#` with your GitHub Pages or Netlify link)_
 
 ---
 
 ## 🙌 Author
 
-Made with 💻  by [Crufus](https://github.com/cru-fus)
+Made by [Crufus](https://github.com/cru-fus)
 
 ---
 
