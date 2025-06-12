@@ -49,7 +49,7 @@ The name adds a fun twist. Just like Simon Peter had to follow faithfully — in
 
 ## 🙌 Author
 
-Made by [Crufus](https://github.com/cru-fus)
+Made by ❤️ by [Crufus](https://github.com/cru-fus)
 
 ---
 
