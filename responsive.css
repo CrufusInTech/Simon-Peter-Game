@@ -1,4 +1,3 @@
-
 @media (min-width: 320px) and (max-width: 349px) {
   #level-title {
     font-size: 0.9rem;
@@ -22,7 +21,7 @@
 
   #how-to-play-btn {
     top: 480px;
-    right: 70px;
+    right: 65px;
     
   }
 
@@ -64,7 +63,7 @@
 
   #how-to-play-btn {
     top: 480px;
-    margin-right: 15px;
+    margin-right: 7px;
   }
 
    .how-to-content{
@@ -83,12 +82,13 @@
 }
 
 @media (min-width: 375px) and (max-width: 389px) {
-   #level-title {
+  #level-title {
     font-size: 1rem;
   }
 
   .container {
     margin-top: 10px;
+    margin-right: 5px;
   }
 
   .btn {
@@ -104,23 +104,23 @@
 
   #how-to-play-btn {
     top: 480px;
-    right: 95px;
-    
+    margin-right: 7px;
   }
 
-  .how-to-content{
+   .how-to-content{
     font-size: 0.8rem;
     top: 200px;
-    height: 300px;
+    height: 290px;
     width: 250px;
     padding-top: 10px;
     border-radius: 5%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
 
   .how-to-content h2{
     font-size: 1rem;
   }
+  
 }
 
 @media (min-width: 390px) and (max-width: 400px) {
@@ -426,7 +426,7 @@
   }
 }
 
-@media (min-width: 572px) and (max-width: 757px) {
+@media (min-width: 572px) and (max-width: 607px) {
   #level-title {
     font-size: 1.3rem;
   }
@@ -451,6 +451,49 @@
   #how-to-play-btn {
   top: 570px;
   right: 185px;
+  }
+
+  .how-to-content{
+    font-size: 1.1rem;
+    top: 200px;
+    height: 330px;
+    width: 380px;
+    padding-top: 10px;
+    border-radius: 5%;
+    padding-bottom: 60px;
+  }
+
+  .how-to-content h2{
+    font-size: 1.2rem;
+  }
+
+}
+
+@media (min-width: 608px) and (max-width: 767px) {
+  #level-title {
+    font-size: 1.3rem;
+  }
+
+  .container {
+    margin-top: 30px;
+    padding: 0 40px 0 0;
+    margin-left: 80px;
+  }
+
+  .btn {
+    height: 130px;
+    width: 130px;
+  }
+
+  .high-score {
+    font-size: 1.2rem;
+    right: 130px;
+    top: 510px
+  }
+
+  #how-to-play-btn {
+  top: 570px;
+  right: 208px;
   }
 
   .how-to-content{
@@ -570,4 +613,26 @@
   font-size: 1.4rem;
   }
 }
+
+@media (min-width: 901px) and (max-width: 1120px) {
+ #level-title{
+  font-size: 2rem;
+ }
+
+ .container{
+  margin-bottom: 20px;
+ }
+
+ .high-score {
+  font-size: 1rem;
+  margin-right: -10px;
+ }
+
+ #how-to-play-btn{
+  font-size: 1rem;
+  margin-right: -20px;
+ }
+  
+}
+
 

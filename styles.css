@@ -1,7 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 /* Center-align all text and set the background color of the body */
 body {
   text-align: center;
   background-color: #FEF2BF;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 /* Style for the game title */
