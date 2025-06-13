@@ -37,7 +37,7 @@
   }
 
   .how-to-content h2{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -68,9 +68,9 @@
   }
 
    .how-to-content{
-    font-size: 0.8rem;
-    height: 350px;
-    width: 320px;
+    font-size: 0.9rem;
+    height: 360px;
+    width: 360px;
     padding-top: 10px;
     border-radius: 5%;
     padding-bottom: 10px;
@@ -80,48 +80,6 @@
     font-size: 1rem;
   }
 }
-
-/* @media (min-width: 375px) and (max-width: 389px) {
-  #level-title {
-    font-size: 1rem;
-  }
-
-  .container {
-    margin-top: 10px;
-    margin-left: 15px;
-  }
-
-  .btn {
-    height: 115px;
-    width: 115px;
-  }
-
-  .high-score {
-    font-size: 1rem;
-    right: 40px;
-    top: 430px;
-  }
-
-  #how-to-play-btn {
-    top: 480px;
-    margin-right: 7px;
-  }
-
-   .how-to-content{
-    font-size: 0.8rem;
-    top: 200px;
-    height: 290px;
-    width: 250px;
-    padding-top: 10px;
-    border-radius: 5%;
-    padding-bottom: 10px;
-  }
-
-  .how-to-content h2{
-    font-size: 1rem;
-  }
-  
-} */
 
 @media (min-width: 374px) and (max-width: 388px) {
   #level-title {
@@ -146,7 +104,7 @@
 
   #how-to-play-btn {
     top: 470px;
-    right: 95px;    
+    right: 90px;    
   }
 
   .how-to-content{

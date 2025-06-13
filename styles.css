@@ -7,8 +7,6 @@ html{
   overflow-x: hidden;
 }
 
-
-/* Center-align all text and set the background color of the body */
 body {
   max-width: 100%;
   text-align: center;
@@ -18,7 +16,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Style for the game title */
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 2.5rem;
@@ -34,8 +31,6 @@ body {
   align-items: center;
 }
 
-
-/* Container for the game buttons, centered and 50% width */
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
@@ -44,24 +39,20 @@ body {
   max-width: 520px;
 }
 
-
-/* Common style for all colored game buttons */
 .btn {
   margin: 20px;
   display: inline-block;
   height: 200px;
   width: 200px;
   border: 10px solid black;
-  border-radius: 20%; /* Rounded corners */
+  border-radius: 20%;
 }
 
-/* Red flash background for game over effect */
 .game-over {
   background-color: red;
   opacity: 0.8;
 }
 
-/* Individual button colors */
 .red {
   background-color: red;
 }
@@ -78,14 +69,12 @@ body {
   background-color: yellow;
 }
 
-/* Style when a button is pressed */
 .pressed {
   background-color: grey;
   transform: scale(1.1);
   transition: transform 0.1s ease;
 }
 
-/* Style for the high score */
 .high-score {
   position: absolute;
   top: 200px;
@@ -99,9 +88,6 @@ body {
   text-align: center;
 }
 
-/* --- How to Play Button --- */
-
-/* Button to open the How-To-Play instructions */
 #how-to-play-btn {
   position: absolute;
   top: 280px;
@@ -117,18 +103,15 @@ body {
   cursor: pointer;
 }
 
-/* Hover effect for the How-To-Play button */
 #how-to-play-btn:hover {
   background-color: black;
   color: #FEF2BF;
 }
 
-/* Utility class to hide elements */
 .hidden {
   display: none !important;
 }
 
-/* Fullscreen overlay for the How-To-Play instructions */
 #how-to-play-box {
   position: fixed;
   top: 0;
@@ -141,7 +124,6 @@ body {
   justify-content: center;
 }
 
-/* Box that contains the actual instructions */
 .how-to-content {
   background: #FEF2BF;
   padding: 2rem;
@@ -160,7 +142,6 @@ body {
   font-size: 1.3rem;
 }
 
-/* Close button for the instructions */
 #close-how-to {
   margin-top: 1rem;
   background: #e53935;
@@ -172,7 +153,6 @@ body {
   font-size: 1rem;
 }
 
-/* Hover effect for close button */
 #close-how-to:hover {
   background-color: #2980b9;
   transform: scale(1.1);

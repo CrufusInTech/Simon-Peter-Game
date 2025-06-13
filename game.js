@@ -68,12 +68,10 @@ function checkAnswer(currentLevel) {
     // Show "game over" message
     $("#level-title").text("Better luck next time!");
 
-    // After 2 seconds, show restart prompt
     setTimeout(function() {
       $("#level-title").text("Tap screen or press any key to start");
     }, 800);
 
-    // Remove red flash effect quickly
     setTimeout(function () {
       $("body").removeClass("game-over");
     }, 800);
