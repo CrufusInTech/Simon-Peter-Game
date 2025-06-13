@@ -2,8 +2,15 @@
   box-sizing: border-box;
 }
 
+html{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
 /* Center-align all text and set the background color of the body */
 body {
+  max-width: 100%;
   text-align: center;
   background-color: #FEF2BF;
   margin: 0;

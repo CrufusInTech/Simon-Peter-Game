@@ -16,21 +16,21 @@
   .high-score {
     font-size: 0.9rem;
     right: 26px;
-    top: 360px
+    top: 360px;
   }
 
   #how-to-play-btn {
     top: 410px;
     right: 80px;
-    font-size: 0.8rem
+    font-size: 0.8rem;
     
   }
 
   .how-to-content{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     top: 200px;
-    height: 280px;
-    width: 250px;
+    height: 380px;
+    width: 300px;
     padding-top: 10px;
     border-radius: 5%;
     padding-bottom: 20px;
@@ -41,14 +41,14 @@
   }
 }
 
-@media (min-width: 350px) and (max-width: 374px) {
+@media (min-width: 350px) and (max-width: 373px) {
   #level-title {
     font-size: 1rem;
   }
 
   .container {
     margin-top: 10px;
-    margin-right: 5px;
+    margin-left: 20px;
   }
 
   .btn {
@@ -58,20 +58,19 @@
 
   .high-score {
     font-size: 1rem;
-    right: 40px;
-    top: 430px
+    right: 35px;
+    top: 400px;
   }
 
   #how-to-play-btn {
-    top: 480px;
-    margin-right: 7px;
+    top: 460px;
+    margin-right: 5px;
   }
 
    .how-to-content{
     font-size: 0.8rem;
-    top: 200px;
-    height: 290px;
-    width: 250px;
+    height: 350px;
+    width: 320px;
     padding-top: 10px;
     border-radius: 5%;
     padding-bottom: 10px;
@@ -82,14 +81,14 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 389px) {
+/* @media (min-width: 375px) and (max-width: 389px) {
   #level-title {
     font-size: 1rem;
   }
 
   .container {
     margin-top: 10px;
-    margin-right: 5px;
+    margin-left: 15px;
   }
 
   .btn {
@@ -100,7 +99,7 @@
   .high-score {
     font-size: 1rem;
     right: 40px;
-    top: 430px
+    top: 430px;
   }
 
   #how-to-play-btn {
@@ -122,16 +121,16 @@
     font-size: 1rem;
   }
   
-}
+} */
 
-@media (min-width: 390px) and (max-width: 400px) {
+@media (min-width: 374px) and (max-width: 388px) {
   #level-title {
     font-size: 1rem;
   }
 
   .container {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .btn {
@@ -141,21 +140,60 @@
 
   .high-score {
     font-size: 1rem;
-    margin-right: 20px;
-    top: 430px
+    margin-right: 15px;
+    top: 400px;
+  }
+
+  #how-to-play-btn {
+    top: 470px;
+    right: 95px;    
+  }
+
+  .how-to-content{
+    font-size: 0.9rem;
+    height: 380px;
+    width: 350px;
+    padding-top: 10px;
+    border-radius: 5%;
+    padding-bottom: 10px;
+  }
+
+  .how-to-content h2{
+    font-size: 1rem;
+  }
+}
+
+
+@media (min-width: 389px) and (max-width: 400px) {
+  #level-title {
+    font-size: 1rem;
+  }
+
+  .container {
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+
+  .btn {
+    height: 115px;
+    width: 115px;
+  }
+
+  .high-score {
+    font-size: 1rem;
+    margin-right: 15px;
+    top: 410px;
   }
 
   #how-to-play-btn {
     top: 480px;
-    right: 100px;
-    
+    right: 100px;    
   }
 
   .how-to-content{
-    font-size: 0.8rem;
-    top: 200px;
-    height: 290px;
-    width: 250px;
+    font-size: 0.9rem;
+    height: 380px;
+    width: 350px;
     padding-top: 10px;
     border-radius: 5%;
     padding-bottom: 10px;
@@ -184,7 +222,7 @@
   .high-score {
     font-size: 1.1rem;
     margin-right: 15px;
-    top: 430px
+    top: 430px;
   }
 
   #how-to-play-btn {
@@ -228,21 +266,21 @@
   .high-score {
     font-size: 1rem;
     right: 74px;
-    top: 490px
+    top: 460px;
   }
 
   #how-to-play-btn {
-    top: 540px;
+    top: 520px;
     font-size: 1.1rem;
-    right: 112px
+    right: 112px;
     
   }
 
   .how-to-content{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     top: 200px;
-    height: 310px;
-    width: 300px;
+    height: 370px;
+    width: 390px;
     padding-top: 10px;
     border-radius: 5%;
     padding-bottom: 10px;
@@ -262,7 +300,7 @@
   .container {
     margin-top: 30px;
     padding: 0 40px 0 0;
-    margin-left: 40px;
+    margin-left: 53px;
   }
 
   .btn {
@@ -273,25 +311,22 @@
   .high-score {
     font-size: 1rem;
     right: 90px;
-    top: 490px
+    top: 460px;
   }
 
 
   #how-to-play-btn {
-    top: 540px;
+    top: 520px;
     font-size: 1.1rem;
-    right: 130px
+    right: 130px;
     
   }
 
   .how-to-content{
-    font-size: 0.8rem;
-    top: 200px;
-    height: 310px;
-    width: 300px;
-    padding-top: 10px;
+    font-size: 0.9rem;
+    height: 380px;
+    width: 380px;
     border-radius: 5%;
-    padding-bottom: 10px;
   }
 
   .how-to-content h2{
@@ -308,7 +343,7 @@
   .container {
     margin-top: 30px;
     padding: 0 40px 0 0;
-    margin-left: 40px;
+    margin-left: 60px;
   }
 
   .btn {
@@ -319,22 +354,21 @@
   .high-score {
     font-size: 1rem;
     right: 90px;
-    top: 490px
+    top: 460px;
   }
 
   #how-to-play-btn {
-  top: 540px;
+  top: 530px;
   right: 142px;
   }
 
   .how-to-content{
     font-size: 0.9rem;
     top: 200px;
-    height: 310px;
-    width: 300px;
+    height: 370px;
+    width: 390px;
     padding-top: 10px;
     border-radius: 5%;
-    padding-bottom: 10px;
   }
 
   .how-to-content h2{
@@ -351,7 +385,7 @@
   .container {
     margin-top: 30px;
     padding: 0 40px 0 0;
-    margin-left: 55px;
+    margin-left: 75px;
   }
 
   .btn {
@@ -362,19 +396,19 @@
   .high-score {
     font-size: 1.1rem;
     right: 100px;
-    top: 510px
+    top: 480px;
   }
 
   #how-to-play-btn {
-  top: 570px;
+  top: 550px;
   right: 160px;
   }
 
   .how-to-content{
     font-size: 1.1rem;
     top: 200px;
-    height: 330px;
-    width: 380px;
+    height: 430px;
+    width: 400px;
     padding-top: 10px;
     border-radius: 5%;
     padding-bottom: 60px;
@@ -393,7 +427,7 @@
   .container {
     margin-top: 30px;
     padding: 0 40px 0 0;
-    margin-left: 60px;
+    margin-left: 75px;
   }
 
   .btn {
@@ -404,19 +438,19 @@
   .high-score {
     font-size: 1.1rem;
     right: 110px;
-    top: 510px
+    top: 480px;
   }
 
   #how-to-play-btn {
-  top: 570px;
+  top: 550px;
   right: 180px;
   }
 
   .how-to-content{
     font-size: 1.1rem;
     top: 200px;
-    height: 330px;
-    width: 380px;
+    height: 430px;
+    width: 400px;
     padding-top: 10px;
     border-radius: 5%;
     padding-bottom: 60px;
@@ -435,7 +469,7 @@
   .container {
     margin-top: 30px;
     padding: 0 40px 0 0;
-    margin-left: 80px;
+    margin-left: 95px;
   }
 
   .btn {
@@ -446,22 +480,21 @@
   .high-score {
     font-size: 1.1rem;
     right: 120px;
-    top: 510px
+    top: 480px;
   }
 
   #how-to-play-btn {
-  top: 570px;
-  right: 185px;
+  top: 550px;
+  right: 190px;
   }
 
   .how-to-content{
     font-size: 1.1rem;
     top: 200px;
-    height: 330px;
-    width: 380px;
+    height: 440px;
+    width: 400px;
     padding-top: 10px;
     border-radius: 5%;
-    padding-bottom: 60px;
   }
 
   .how-to-content h2{
@@ -478,30 +511,30 @@
   .container {
     margin-top: 30px;
     padding: 0 40px 0 0;
-    margin-left: 80px;
+    margin-left: 95px;
   }
 
   .btn {
-    height: 130px;
-    width: 130px;
+    height: 140px;
+    width: 140px;
   }
 
   .high-score {
     font-size: 1.2rem;
     right: 130px;
-    top: 510px
+    top: 490px;
   }
 
   #how-to-play-btn {
-  top: 570px;
+  top: 560px;
   right: 208px;
   }
 
   .how-to-content{
     font-size: 1.1rem;
     top: 200px;
-    height: 330px;
-    width: 380px;
+    height: 440px;
+    width: 400px;
     padding-top: 10px;
     border-radius: 5%;
     padding-bottom: 60px;
@@ -561,23 +594,21 @@
   .high-score {
     font-size: 1.6rem;
     left: 55px;
-    top: 650px
+    top: 630px
   }
 
   #how-to-play-btn {
   top: 720px;
-  margin-right: 190px;
+  margin-right: 200px;
   font-size: 1.4rem;
   }
 
   .how-to-content{
     font-size: 1rem;
-    top: 200px;
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 400px;
     padding-top: 10px;
     border-radius: 5%;
-    padding-bottom: 20px;
   }
 
   .how-to-content h2{
