@@ -20,23 +20,24 @@
   }
 
   #how-to-play-btn {
-    top: 420px;
-    right: 65px;
+    top: 410px;
+    right: 80px;
+    font-size: 0.8rem
     
   }
 
   .how-to-content{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     top: 200px;
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 250px;
     padding-top: 10px;
     border-radius: 5%;
     padding-bottom: 20px;
   }
 
   .how-to-content h2{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 
