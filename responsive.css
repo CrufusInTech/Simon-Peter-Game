@@ -5,7 +5,7 @@
 
   .container {
     margin-top: 20px;
-    margin-left: -20px;
+    margin-left: 10px;
   }
 
   .btn {
@@ -16,11 +16,11 @@
   .high-score {
     font-size: 0.9rem;
     right: 26px;
-    top: 420px
+    top: 360px
   }
 
   #how-to-play-btn {
-    top: 480px;
+    top: 420px;
     right: 65px;
     
   }
@@ -28,11 +28,11 @@
   .how-to-content{
     font-size: 0.7rem;
     top: 200px;
-    height: 280px;
-    width: 220px;
+    height: 300px;
+    width: 300px;
     padding-top: 10px;
     border-radius: 5%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
   .how-to-content h2{
